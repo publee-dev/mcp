@@ -1,0 +1,22 @@
+{
+  "name": "publee-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Publee — publish HTML to a shareable https://<slug>.publee.site URL",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "publee-mcp": "index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publee-dev/mcp.git"
+  },
+  "homepage": "https://publee.app/docs/mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
