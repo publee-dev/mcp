@@ -8,7 +8,7 @@
     "publee-mcp": "index.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^22.23.4 || ^24.22.1 || >=26.12.1"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://publee.app/docs/mcp",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "zod": "^3.24.0"
   }
 }
